@@ -1,6 +1,6 @@
 
 const items = [
-    { title: "HTML", description: "Standard markup language for creating web pages." },
+    { title: "HTML Standard markup language for creating web pages.", description: "Standard markup language for creating web pages." },
     { title: "CSS", description: "Style sheet language used for describing the presentation of a document." },
     { title: "JavaScript", description: "Programming language that enables interactive web pages." },
     { title: "Python", description: "High-level programming language known for its readability." },
@@ -65,8 +65,8 @@ items.forEach((lang) => {
 						<p>${lang.description}</p>
 					</div>
 					<div class="card-footer d-flex justify-content-between">
-						<button class="btn btn-primary">Edit</button>
-						<button class="btn btn-danger">Remove</button>
+						<button class="btn btn-outline-primary">Edit</button>
+						<button class="btn btn-outline-danger">Remove</button>
 					</div>				
 				</div>
 			</div>`
